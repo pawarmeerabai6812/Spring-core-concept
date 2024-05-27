@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <bean class="com.springCore.SpringCore0.Autowire.Address" name="address1">
+    <property name="street" value="Temp Street"/>
+    <property name="city" value="Mumbai"/>
+    </bean>
+    
+    <bean class="com.springCore.SpringCore0.Autowire.Address" name="address">
+    <property name="street" value="Street232"/>
+    <property name="city" value="Latur"/>
+    </bean>
+    	<bean class="com.springCore.SpringCore0.Autowire.Emp" name="emp1" autowire="constructor"/>
+    </beans>
+    

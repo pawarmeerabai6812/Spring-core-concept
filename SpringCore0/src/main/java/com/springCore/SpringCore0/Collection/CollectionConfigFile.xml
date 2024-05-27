@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <bean class="com.springCore.SpringCore0.Collection.Emp" name="emp1">
+    
+    <property name="name" value="Radhe"/>
+    <property name="phones" >
+    <value>=7382758325</value>
+    </property>
+    
+    <property name="address">
+    	<value>Latur</value>
+	</property>
+    
+    <property name="courses">
+   	<map>
+    		<entry key="Mysql" value="5Month"/>	
+    </map>
+    </property>
+    
+    </bean>
+    
+    	
+    </beans>
+    
